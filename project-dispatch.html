@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Brandon Cloutier | Project Dispatch Fulfillment</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white min-h-screen flex flex-col font-sans">
+        <header class="flex justify-between items-center md:px-12 md:py-6 relative p-4">
+            <div class="font-bold text-2xl"><span class="text-emerald-400">Brandon</span>Cloutier</div>
+            <button id="menu-toggle" class="md:hidden z-20 text-white focus:outline-none">
+                <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <path d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+
+            <nav
+                id="mobile-menu"
+                class="absolute top-full left-0 w-full md:w-auto bg-[#1e293b] flex-col space-y-4 px-6 py-4 hidden md:flex md:flex-row md:static md:bg-transparent md:space-y-0 md:space-x-6 md:items-center z-10"
+            >
+                <a href="index.html" class="text-slate-300 hover:text-emerald-400">Home</a>
+                <a href="about.html" class="text-slate-300 hover:text-emerald-400">About</a>
+                <a href="projects.html" class="text-emerald-400 font-semibold">Projects</a>
+                <a href="skills.html" class="text-slate-300 hover:text-emerald-400">Skills</a>
+                <a href="contact.html" class="text-slate-300 hover:text-emerald-400">Contact</a>
+                <a href="https://docs.google.com/document/d/12t8N-j9VEQvfFqpLhXUAUon4S2urfyModdjVLKrB-x0/edit?usp=sharing" target="_blank">
+                    <button class="border border-slate-300 px-4 py-1 rounded text-white hover:border-emerald-400">Resume</button>
+                </a>
+            </nav>
+        </header>
+
+        <div class="md:px-12 md:py-8 p-4">
+            <a class="text-emerald-400 flex gap-2 items-center" href="projects.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path
+                        fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"
+                    />
+                </svg>
+                Back to projects
+            </a>
+        </div>
+
+        <header class="md:px-12 md:py-8 px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Dispatch Fulfillment</h1>
+            <h2 class="text-xl text-gray-300 mb-6">
+                A full-stack web application for buying discounted shipping labels with real-time tracking and analytics.
+            </h2>
+            <ul class="text-sm flex items-center gap-3 mb-8 flex-wrap">
+                <li class="flex items-center text-slate-200 flex items-center gap-2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-6 h-6" />
+                    JavaScript/Typescript
+                </li>
+                <li class="flex items-center text-slate-200 flex items-center gap-2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" class="w-6 h-6" />
+                    Next.js
+                </li>
+                <li class="flex items-center text-slate-200 flex items-center gap-2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="w-6 h-6" />
+                    Node.js/Express.js
+                </li>
+                <li class="flex items-center text-slate-200 flex items-center gap-2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="w-6 h-6" />
+                    PostgreSQL
+                </li>
+            </ul>
+            <a href="https://dispatch-ui-prod.vercel.app/" target="_blank">
+                <button class="bg-emerald-400 text-gray-900 px-5 py-2 rounded flex gap-2 items-center">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-box-arrow-up-right"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
+                        />
+                        <path
+                            fill-rule="evenodd"
+                            d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
+                        /></svg
+                    >Production App
+                </button>
+            </a>
+        </header>
+
+        <div class="md:px-12 md:py-8 p-4">
+            <div class="rounded-lg border border-gray-700 shadow-xl overflow-hidden">
+                <img src="assets/dispatch-dashboard.png" alt="Dispatch Fulfillment Dashboard" />
+            </div>
+        </div>
+
+        <div class="md:px-12 md:py-16 px-4 py-8">
+            <h2 class="text-2xl font-bold mb-6 text-emerald-400">Project Overview</h2>
+            <div class="flex flex-col gap-4">
+                <p>
+                    Built and led development of a scalable web app for purchasing discounted shipping labels, serving 1,500+ users. Engineered a
+                    unique multi-shipment cart system allowing users to bundle shipments and select rates like retail items.
+                </p>
+            </div>
+
+            <h2 class="text-2xl font-bold mb-6 text-emerald-400 mt-12 mb-6">Key Features</h2>
+            <ul class="flex flex-col gap-4">
+                <li>
+                    <p><span class="text-emerald-400 mr-2">•</span>Real-time shipping rate comparison across multiple carriers</p>
+                </li>
+                <li class="flex gap-2">
+                    <p><span class="text-emerald-400 mr-2">•</span>Automated label generation and printing</p>
+                </li>
+                <li class="flex gap-2">
+                    <p><span class="text-emerald-400 mr-2">•</span>Bulk label processing for high-volume shippers</p>
+                </li>
+                <li class="flex gap-2">
+                    <p><span class="text-emerald-400 mr-2">•</span>User authentication and role-based access control</p>
+                </li>
+            </ul>
+
+            <h2 class="text-2xl font-bold mb-6 text-emerald-400 mt-12">Technical Implementation</h2>
+            <div class="flex flex-col gap-4">
+                <p>
+                    Implemented backend with Node.js, Express, PostgreSQL (Supabase), and integrated Shippo and Square APIs for real-time label
+                    generation and secure payments. Managed AWS infrastructure and delivered a responsive frontend with Next.js and TypeScript. Led
+                    feedback cycles to refine UX and ship new features.
+                </p>
+            </div>
+
+            <h2 class="text-2xl font-bold mb-6 text-emerald-400 mt-12">Challenges & Solutions</h2>
+            <div class="flex flex-col gap-4">
+                <p>
+                    One of the main challenge was creating the multi-shipment checkout system utilizing the Shippo API. Since Shippo didn't offer
+                    native support for bundling multiple shipments into a single, retail-style checkout flow, we had to architect our own
+                    infrastructure around it. We implemented backend systems to sequentially create shipments with a rate selection page and finally,
+                    at checkout, bundle all of the shipments using Shippo's batch feature.
+                </p>
+                <p>
+                    Another challenge we encountered was ensuring proper error handling during the payment and label generation process. I created
+                    fallback redundancies to maintain system integrity. If a payment failed, the label generation was halted, and any pending shipment
+                    creations were rolled back. Conversely, if label generation failed after a successful payment, the system adjusted charges
+                    accordingly and reverted the transaction to a stable state, ensuring users were never overcharged or left in an inconsistent
+                    checkout state.
+                </p>
+            </div>
+        </div>
+
+        <script>
+            const toggle = document.getElementById('menu-toggle');
+            const menu = document.getElementById('mobile-menu');
+        
+            toggle.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                menu.classList.toggle('flex');
+            });
+        </script>
+    </body>
+</html>
